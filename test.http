@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/solve
+Content-Type: application/json
+
+{
+  "problem": "Find duplicate number in array",
+  "language": "java"
+}
+

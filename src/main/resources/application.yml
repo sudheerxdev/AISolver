@@ -1,0 +1,47 @@
+#server:
+#  port: ${PORT:8080}
+#
+#gemini:
+#  api:
+#    key: ${GEMINI_API_KEY}
+#
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:aisolverdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#  h2:
+#    console:
+#      enabled: true
+
+server:
+  port: ${PORT:8080}
+
+gemini:
+  api:
+    key: ${GEMINI_API_KEY}
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:aisolverdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
